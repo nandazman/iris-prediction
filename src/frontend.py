@@ -4,7 +4,7 @@ import requests
 
 st.image('./assets/header-iris.png')
 st.title('Iris Classifier App')
-st.markdown('*Created by Nanda Fadhil Azman | Batch May 2024*')
+st.markdown('*Created by Nanda Fadhil Azman | Batch May 2024* | Last deployed 15th June')
 st.divider()
 
 with st.form(key='iris-form'):
