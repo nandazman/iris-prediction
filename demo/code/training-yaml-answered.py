@@ -49,5 +49,6 @@ print("Accuracy score is {:.1f} %".format(result*100))
 
 # save our classifier in the model directory
 model_name = config['model']['model_name']
-joblib.dump(model, '../model/{}.pkl'.format(model_name))
+model_directory = config['model']['model_directory']
+joblib.dump(model, model_directory + '{}.pkl'.format(model_name))
 print("Model saved as {}.pkl".format(model_name))
